@@ -3,6 +3,9 @@
 int add(int x ,int y);
 int main()
 {
-printf("This is barun\n result:%d",add(2,3));
-return 0;
+	int a,b;
+	printf("Enter the value a and b!");
+	scanf("%d %d",&a ,&b);
+	printf("This is barun\n result:%d",add(a,b));
+	return 0;
 }
